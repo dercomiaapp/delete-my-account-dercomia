@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>DERCOMIA - Suppression de compte</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+:root{
+    --bg:#ffffff;
+    --card:#ffffff;
+    --text:#111111;
+    --text-light:#666;
+    --border:#e8e8e8;
+    --primary:#111111;
+    --radius:22px;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:#fafafa;
+    color:var(--text);
+    font-family:'Manrope',sans-serif;
+}
+
+header{
+    position:sticky;
+    top:0;
+    background:rgba(255,255,255,.9);
+    backdrop-filter:blur(15px);
+    border-bottom:1px solid var(--border);
+    padding:18px 25px;
+    z-index:100;
+}
+
+.logo{
+    display:flex;
+    align-items:center;
+    gap:12px;
+    font-family:'Fraunces',serif;
+    font-size:24px;
+    font-weight:600;
+}
+
+.logo img{
+    width:38px;
+}
+
+.hero{
+
+    max-width:850px;
+    margin:auto;
+    padding:70px 25px 40px;
+}
+
+.badge{
+
+    display:inline-block;
+    padding:8px 16px;
+    border-radius:999px;
+    background:#efefef;
+    font-size:13px;
+    font-weight:700;
+    margin-bottom:25px;
+
+}
+
+.hero h1{
+
+    font-family:'Fraunces',serif;
+    font-size:55px;
+    line-height:1.1;
+    margin-bottom:20px;
+
+}
+
+.hero p{
+
+    font-size:18px;
+    color:var(--text-light);
+    max-width:650px;
+    line-height:1.8;
+
+}
+
+.container{
+
+    max-width:850px;
+    margin:auto;
+    padding:0 25px 80px;
+
+}
+
+.card{
+
+    background:white;
+    border:1px solid var(--border);
+    border-radius:22px;
+    padding:25px;
+    margin-bottom:20px;
+
+}
+
+.card h2{
+
+    font-family:'Fraunces',serif;
+    margin-bottom:20px;
+    font-size:28px;
+
+}
+
+.step{
+
+    background:#fafafa;
+    border:1px solid var(--border);
+    border-radius:15px;
+    padding:15px 18px;
+    margin:10px 0;
+    transition:.25s;
+
+}
+
+.step:hover{
+
+    transform:translateX(5px);
+
+}
+
+ul{
+
+    padding-left:20px;
+
+}
+
+li{
+
+    margin:12px 0;
+    line-height:1.6;
+
+}
+
+.notice{
+
+    background:#f5f5f5;
+    border-left:5px solid #111;
+    padding:18px;
+    border-radius:10px;
+    margin-top:15px;
+
+}
+
+footer{
+
+    margin-top:60px;
+    padding-top:30px;
+    border-top:1px solid var(--border);
+    text-align:center;
+    color:#777;
+
+}
+
+@media(max-width:700px){
+
+.hero h1{
+
+font-size:38px;
+
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">
+
+<img src="https://i.ibb.co/tMcDMMyY/Logo-Derco-Mia.png">
+
+DERCOMIA
+
+</div>
+
+</header>
+
+<section class="hero">
+
+<div class="badge">
+Suppression de compte
+</div>
+
+<h1>Supprimer votre compte <em>DERCOMIA</em></h1>
+
+<p>
+
+Cette page explique comment supprimer définitivement votre compte ainsi que toutes les données personnelles associées à votre profil.
+
+</p>
+
+</section>
+
+<div class="container">
+
+<div class="card">
+
+<h2>Comment supprimer votre compte</h2>
+
+<div class="step">
+1. Ouvrez l'application DERCOMIA.
+</div>
+
+<div class="step">
+2. Connectez-vous à votre compte.
+</div>
+
+<div class="step">
+3. Accédez à la page <strong>Profil</strong>.
+</div>
+
+<div class="step">
+4. Appuyez sur <strong>Supprimer mon compte</strong>.
+</div>
+
+<div class="step">
+5. Une fenêtre de confirmation apparaît.
+</div>
+
+<div class="step">
+6. Saisissez votre nom dans le champ demandé.
+</div>
+
+<div class="step">
+7. Appuyez une seconde fois sur <strong>Supprimer mon compte</strong> afin de confirmer la suppression définitive.
+</div>
+
+</div>
+
+<div class="card">
+
+<h2>Données supprimées</h2>
+
+<p>
+Lors de la suppression de votre compte, les éléments suivants sont définitivement supprimés :
+</p>
+
+<ul>
+
+<li>Compte Firebase Authentication</li>
+
+<li>Profil utilisateur</li>
+
+<li>Nom et prénom</li>
+
+<li>Adresse e-mail</li>
+
+<li>Numéro de téléphone</li>
+
+<li>Adresse de livraison</li>
+
+<li>Favoris</li>
+
+<li>Informations de fidélité</li>
+
+<li>Toutes les données associées à votre compte</li>
+
+</ul>
+
+</div>
+
+<div class="card">
+
+<h2>Données conservées</h2>
+
+<div class="notice">
+
+Aucune donnée personnelle n'est conservée après la suppression du compte, sauf si une obligation légale impose une période de conservation.
+
+</div>
+
+</div>
+
+<div class="card">
+
+<h2>Suppression définitive</h2>
+
+<div class="notice">
+
+La suppression est irréversible. Une fois votre demande confirmée, votre compte et toutes les données associées ne pourront plus être récupérés.
+
+</div>
+
+</div>
+
+<footer>
+
+© 2026 DERCOMIA — Tous droits réservés
+
+</footer>
+
+</div>
+
+</body>
+
+</html>
